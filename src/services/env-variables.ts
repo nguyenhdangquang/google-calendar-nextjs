@@ -1,0 +1,18 @@
+const API_ROOT = process.env.NEXT_PUBLIC_API_ENDPOINT as string;
+const REQUEST_TIMEOUT = process.env
+  .NEXT_PUBLIC_REQUEST_TIMEOUT as unknown as number;
+const AUTH_GOOGLE_CLIENT_ID = process.env
+  .NEXT_PUBLIC_AUTH_GOOGLE_CLIENT_ID as string;
+const AUTH_GOOGLE_SCOPE = process.env.NEXT_PUBLIC_AUTH_GOOGLE_SCOPE as string;
+const DEFAULT_EVENT_BACKGROUND_COLOR = process.env
+  .NEXT_PUBLIC_DEFAULT_EVENT_BACKGROUND_COLOR as string;
+const FRONT_END_HOST = process.env.NEXT_PUBLIC_HOST_NAME as string;
+
+export const environment_config = {
+  API_ROOT,
+  REQUEST_TIMEOUT,
+  AUTH_GOOGLE_CLIENT_ID,
+  AUTH_GOOGLE_SCOPE,
+  DEFAULT_EVENT_BACKGROUND_COLOR,
+  FRONT_END_HOST,
+};

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" errors="0" time="2.215">
+  <testsuite name="src/layouts/Meta.test.tsx" errors="0" failures="0" skipped="0" timestamp="2022-05-14T14:03:35" time="0.5" tests="1">
+    <testcase classname="Meta component › Render method" name="should a page title" time="0.033">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/templates/Main.test.tsx" errors="0" failures="0" skipped="0" timestamp="2022-05-14T14:03:36" time="0.462" tests="2">
+    <testcase classname="Main template › Render method" name="should have 3 menu items" time="0.119">
+    </testcase>
+    <testcase classname="Main template › Render method" name="should have a link to support creativedesignsguru.com" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/features/counter/conterSlice.test.ts" errors="0" failures="0" skipped="0" timestamp="2022-05-14T14:03:36" time="0.24" tests="4">
+    <testcase classname="" name="should return the initial state" time="0.003">
+    </testcase>
+    <testcase classname="" name="should handle increase action" time="0">
+    </testcase>
+    <testcase classname="" name="should handle decrease action" time="0">
+    </testcase>
+    <testcase classname="" name="should handle increase by amount action" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/pages.test/create-new-password.test.tsx" errors="0" failures="0" skipped="0" timestamp="2022-05-14T14:03:37" time="0.515" tests="1">
+    <testcase classname="" name="load and displays create new password page" time="0.089">
+    </testcase>
+  </testsuite>
+</testsuites>
